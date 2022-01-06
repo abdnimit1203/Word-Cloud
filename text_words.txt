@@ -1,0 +1,14 @@
+Build in React instead of Flask
+Flask is an awesome framework – all you really need to do is understand Python to get your first project up and running. Most of the time, you use templates to render HTML files.
+
+If you’re new to web development, I recommend you to draw a mockup of the web application you want to build – using boxes – so that you can see everything that you'll soon code. For example, your mockup should have a lot of boxes – one for each potential component and prop you want to have.
+
+Keep in mind that props - which stands for properties - are similar to variables because they are used to pass data into a component. It might be best to think of props like function arguments in JavaScript and attributes in HTML.
+
+Start a React app
+In React, there are a few different ways to start a React application. For the sake of simplicity, we'll use a shortcut command to build out the project structure that you can build on.
+
+Building React projects with a background in Python, Flask, HTML, and CSS
+Congratulations, hope it wasn't too bad moving from a Flask app to a React app! As you can see, there are only a few syntax changes. Instead of having Flask render the HTML pages and Python functions for your web application, you use React's handy technologies to kickstart your application’s UI.
+
+It's worth noting that in a practical application, you should not explicitly write the data in a list or template as it could interfere with the HTML markup. A workaround would be to use a loop to pass in the data. This would overall give you a nicer structure - whether you're working in Flask or React!
